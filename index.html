@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;family=Varela+Round&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <div class="container">
+        <div class="p1-container">
+            <h1>Player 1</h1>
+            <div>
+                <svg class="p1-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
+                </svg>
+            </div>
+        </div>
+    
+        <div class="table-container">
+            <h1 class="message">Its X turn.</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="cell" id="0"></td>
+                        <td class="cell" id="1"></td>
+                        <td class="cell" id="2"></td>
+                    </tr>
+        
+                    <tr>
+                        <td class="cell" id="3"></td>
+                        <td class="cell" id="4"></td>
+                        <td class="cell" id="5"></td>
+                    </tr>
+        
+                    <tr>
+                        <td class="cell" id="6"></td>
+                        <td class="cell" id="7"></td>
+                        <td class="cell" id="8"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="restart-btn" value="Restart">Restart</button>
+        </div>
+    
+        <div class="p2-container">
+            <h1>Player 2</h1>
+            <div>
+                <svg class="p2-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
